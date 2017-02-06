@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CB5F1C0A-12D1-4087-83F7-673AA3017144}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ToDoList", "src\ToDoList\ToDoList.xproj", "{7691A18A-A18B-47F6-B7A8-435871D90B50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7691A18A-A18B-47F6-B7A8-435871D90B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7691A18A-A18B-47F6-B7A8-435871D90B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7691A18A-A18B-47F6-B7A8-435871D90B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7691A18A-A18B-47F6-B7A8-435871D90B50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7691A18A-A18B-47F6-B7A8-435871D90B50} = {CB5F1C0A-12D1-4087-83F7-673AA3017144}
+	EndGlobalSection
+EndGlobal
