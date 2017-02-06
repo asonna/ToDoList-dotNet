@@ -5,22 +5,22 @@
     ViewData["Title"] = "To Do List";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
 @model ToDoList.Models.Item
 
 <html>
 <head>
-    <title>To Do List - Create</title>
+    <title>To Do List - Delete</title>
 </head>
 <body>
-    <h2>Create</h2>
+    <h2>Are you sure you want to delete this?</h2>
     <hr />
-    <h4>Add a new task</h4>
+    @Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)
     @using (Html.BeginForm())
     {
-        @Html.LabelFor(model => model.Description)
-        @Html.TextBoxFor(model => model.Description)
-        <input type="submit" value-"Add new task" />
+        <input type="submit" value="Delete" />
+        
     }
-    <p>@Html.ActionLink("Back to list", "Index")</p>
+    @Html.ActionLink("Back to List", "Index")
 </body>
 </html>

@@ -45,6 +45,8 @@ namespace ToDoList
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles();
+
             //2
             app.UseMvc(routes =>
             {
@@ -52,6 +54,7 @@ namespace ToDoList
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
 
             app.Run(async (context) =>
             {
